@@ -17,7 +17,7 @@ jobs:
       - name: Download a Build Artifact
         uses: dawidd6/action-download-artifact@v2
         with:
-          workflow: Build-and-Test
+          workflow: cibuild.yml
         # Artifact name
           name: publish
         # Destination path
